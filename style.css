@@ -1,0 +1,42 @@
+body{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.block{
+    height: 100px;
+    width: 500px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+}
+.anim{
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    animation: downloading 8s infinite linear;    
+}
+@keyframes downloading{
+    0% {
+        width: 0%
+    }
+    15% {
+        width: 15%
+    }
+    30% {
+        width: 30%
+    }
+    45% {
+        width: 45%
+    }
+    60% {
+        width: 60%
+    }
+    75% {
+        width: 75%
+    }
+    90% {
+        width: 90%
+    }
+    100% {
+        width: 100%
+    }
+};
